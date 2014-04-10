@@ -18,6 +18,9 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//needed colours
+		"full_white"		"255 255 255 255"
+		"full_black"		"0 0 0 255"
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2462,6 +2465,126 @@ Scheme
 				"name"		"Sansation Regular"
 				"tall"		"36"
 				"antialias" "1"
+			}
+		}
+		
+		SansationRegular42
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		SansationRegular48
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
+		SansationRegular56
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		SansationBold12
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"12"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold18
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold20
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold24
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold30
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"30"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold36
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold42
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"42"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold48
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"48"
+				"antialias"	"1"
+			}
+		}
+		
+		SansationBold56
+		{
+			"1"
+			{
+				"name"		"Sansation Bold"
+				"tall"		"56"
+				"antialias"	"1"
 			}
 		}
 	}

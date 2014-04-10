@@ -5,12 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"		[$WIN32]
-		"xpos"			"c-250"		[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"xpos"			"c-200"		[$WIN32]
+		"ypos"			"c65"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"120"
+		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -27,8 +26,8 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -38,10 +37,10 @@
 		"xpos"			"15"
 		"ypos"			"34"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -49,8 +48,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"15"	[$WIN32]
-		"ypos"			"34"	[$WIN32]
+		"xpos"			"35"	[$WIN32]
+		"ypos"			"15"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
@@ -63,20 +62,34 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"41"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"-10"
+		"ypos"			"15"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"70"
-		"tall"			"38"
+		"wide"			"140"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SansationRegular36"
-		"fgcolor"		"Lime"
-	}								
+		"font"			"SansationBold56"
+		"fgcolor"		"255 255 255 255"
+	}	
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"-8"
+		"ypos"			"17"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"140"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"SansationBold56"
+		"fgcolor"		"0 0 0 255"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
